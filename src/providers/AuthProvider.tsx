@@ -11,11 +11,11 @@ import {
 } from "react";
 
 type User = {
-  email: String;
-  password: String;
-  username: String;
-  bio: String | null;
-  profilePicture: String | null;
+  email: string;
+  password: string;
+  username: string;
+  bio: string | null;
+  profilePicture: string | null;
 };
 
 type AuthContext = {
