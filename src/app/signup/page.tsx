@@ -7,9 +7,9 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 type InputValue = {
-  email: String;
-  password: String;
-  username: String;
+  email: string;
+  password: string;
+  username: string;
 };
 
 const Page = () => {
@@ -64,19 +64,16 @@ const Page = () => {
       <Input
         placeholder="email"
         name="email"
-        value={user?.email}
         onChange={(e) => handleInput(e)}
       />
       <Input
         placeholder="password"
         name="password"
-        value={user?.password}
         onChange={(e) => handleInput(e)}
       />
       <Input
         placeholder="username"
         name="username"
-        value={user?.username}
         onChange={(e) => handleInput(e)}
       />
       <Button

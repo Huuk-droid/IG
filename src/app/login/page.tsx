@@ -7,8 +7,8 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 type InputValue = {
-  email: String;
-  password: String;
+  email: string;
+  password: string;
 };
 
 const Page = () => {
